@@ -42,8 +42,6 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
 There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
 
 Here's why:
@@ -84,17 +82,24 @@ This is an example of how to list things you need to use the software and how to
 
 ### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+_A continuación, se daran unos breves paso la implementacion y pruebas para los tres componentes del aplicativo con ejemplos de ejecución_
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clonar el repositorio
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/laponte243/NEAvataR.git
    ```
-3. Install NPM packages
+1. Backend
+   Navegar hasta el backend e inicializa un nuevo virtualenv
    ```sh
-   npm install
+   virtualvenv venv
+   source venv/bin/activate
    ```
+   instala las librerias necesarias
+   ```sh
+   pip3 install -r requerimientos.txt
+   ```
+3. instala las librerias necesarias
+   
 4. Enter your API in `config.js`
    ```js
    const API_KEY = 'ENTER YOUR API';
@@ -118,20 +123,20 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
+- [X] Conceptualización
+- [ ] Crear contrato inicial
+- [ ] Crear pruebas internas al contrato
+- [ ] Iniciarlizar Backend Django con librerias de generación de imagenes
+- [ ] Iniciarlizar frontend con VueJs y Vuetify
+- [ ] Soporte multi-lenguaje
+    - [ ] Ingles
 
 See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#top">Subir</a>)</p>
 
 <!-- CONTACT -->
-## Contact
+## Contacto
 
 Leyner Aponte  
 
