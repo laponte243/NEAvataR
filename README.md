@@ -88,21 +88,34 @@ _A continuación, se daran unos breves paso la implementacion y pruebas para los
    ```sh
    git clone https://github.com/laponte243/NEAvataR.git
    ```
-1. Backend
-   Navegar hasta el backend e inicializa un nuevo virtualenv
+2. BackEnd
+
+   * Navega hasta la carpeta backend e inicializa un nuevo virtualenv
    ```sh
-   virtualvenv venv
-   source venv/bin/activate
+    virtualvenv venv
+    source venv/bin/activate
    ```
-   instala las librerias necesarias
+   * Instala las librerias necesarias
    ```sh
-   pip3 install -r requerimientos.txt
+    pip3 install -r requerimientos.txt
    ```
-3. instala las librerias necesarias
-   
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
+   * Inicializa la base de datos
+   ```sh
+    python3 manage.py makemigratios
+    python3 manage.py migrate
+   ```
+   * Pon en acción el backend
+   ```sh
+    python3 manage.py runserver
+   ```   
+3. FrontEnd
+   * Navega hasta el front e installa las librerias necesarias
+   ```sh
+    npm install
+   ```
+   * inicializa el proyecto
+   ```sh
+    npm run serve
    ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
