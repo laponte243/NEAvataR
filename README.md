@@ -21,7 +21,7 @@
     <li>
       <a href="#about-the-project">Acerca del proyecto</a>
       <ul>
-        <li><a href="#built-with">Herramientas Utiladas</a></li>
+        <li><a href="#built-with">Herramientas utilizadas</a></li>
       </ul>
     </li>
     <li>
@@ -40,16 +40,18 @@
 <!-- ABOUT THE PROJECT -->
 ## Acerca del proyecto
 
-La idea del proyecto, es que utilizando la tecnologia Blockchain se pueda generar de manera dinamica una imagen de 128 x 128 pixels, utilizando como datos en la generacion al azar la direccion de la cuenta near, ejemplo : "leyner.near" y que esta imagen este guardada en un sistema ipfs asociadose a un nft
+La idea del proyecto, es que mediante la tecnologia blockchain se pueda generar de manera dinamica una imagen de 128 x 128 pixels, utilizando como datos en la generacion al azar la direccion de la cuenta near, ejemplo : "leyner.near" y que esta imagen este guardada en un sistema IPFS generando así un NFT
+
+**Por definir Economia
 
 este proyecto tomo bases para el desarrollo del contrato:
-*[Near-Examples](https://github.com/near-examples/NFT/blob/master/nft/src/lib.rs)
-*[Paras](https://github.com/ParasHQ/paras-nft-contract)
-*[NFT-culturas-latinas](https://github.com/NEAR-Hispano/NFT-culturas-latinas/blob/master/blockchain/rust-contract/contract/src/lib.rs)
+* [Near-Examples](https://github.com/near-examples/NFT/blob/master/nft/src/lib.rs)
+* [Paras](https://github.com/ParasHQ/paras-nft-contract)
+* [NFT-culturas-latinas](https://github.com/NEAR-Hispano/NFT-culturas-latinas/blob/master/blockchain/rust-contract/contract/src/lib.rs)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-### Construido con
+### Herramientas utilizadas
 
 A continuación podra observar las principales librerias y lenguajes utilizados para crear este proyecto.
 
