@@ -112,9 +112,9 @@ _A continuación, se daran unos breves paso la implementacion y pruebas para los
 - [X] Conceptualización
 - [ ] Crear contrato inicial
 - [ ] Crear pruebas internas al contrato
-- [ ] Iniciarlizar Backend Django con librerias de generación de imagenes
+- [ ] Inicializar Backend Django con librerias de generación de imagenes
 - [ ] Implementacion del IPFS
-- [ ] Iniciarlizar frontend con VueJs y Vuetify
+- [ ] Inicializar frontend con VueJs y Vuetify
 - [ ] Soporte multi-lenguaje
     - [ ] Inglés
 
