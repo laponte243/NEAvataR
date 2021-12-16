@@ -8,7 +8,8 @@
     <a href="https://docs.near.org/docs/develop/basics/getting-started"><strong>Aprende más de Near »</strong></a>
     <br />
     <br />
-    <a>View Demo</a>
+    <a href="https://www.figma.com/file/I6yP4oKgf7e96SSqXcPtnY/example.near?node-id=0%3A1" target="_blank">View Demo</a>
+    
   </p>
 </div>
 
@@ -56,14 +57,13 @@ este proyecto tomo bases para el desarrollo del contrato:
 A continuación podra observar las principales librerias y lenguajes utilizados para crear este proyecto.
 
 * [Vue.js](https://vuejs.org/)
-* [Django](https://www.djangoproject.com/)
 * [Rust](https://www.rust-lang.org/)
 <p align="right">(<a href="#top">Subir</a>)</p>
 
 <!-- GETTING STARTED -->
 ## Iniciando
 
-Debe tener en cuenta que para ejecutar este proyecto, debe contar con un entorno con python3, nodeJS y rust previamente instalados
+Debe tener en cuenta que para ejecutar este proyecto, debe contar con un entorno con nodeJS y rust previamente instalados
 
 ### Instalación
 
@@ -72,28 +72,8 @@ _A continuación, se daran unos breves paso la implementacion y pruebas para los
 1. Clonar el repositorio
    ```sh
    git clone https://github.com/laponte243/NEAvataR.git
-   ```
-2. BackEnd
-
-   * Navega hasta la carpeta backend e inicializa un nuevo virtualenv
-   ```sh
-    virtualvenv venv
-    source venv/bin/activate
-   ```
-   * Instala las librerias necesarias
-   ```sh
-    pip3 install -r requerimientos.txt
-   ```
-   * Inicializa la base de datos
-   ```sh
-    python3 manage.py makemigratios
-    python3 manage.py migrate
-   ```
-   * Pon en acción el backend
-   ```sh
-    python3 manage.py runserver
    ```   
-3. FrontEnd
+2. FrontEnd
    * Navega hasta el front e installa las librerias necesarias
    ```sh
     npm install
@@ -103,18 +83,18 @@ _A continuación, se daran unos breves paso la implementacion y pruebas para los
     npm run serve
    ```
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right">(<a href="#top">arriba</a>)</p>
 
 
 <!-- ROADMAP -->
 ## Roadmap
 
 - [X] Conceptualización
-- [ ] Crear contrato inicial
+- [X] Crear contrato inicial
 - [ ] Crear pruebas internas al contrato
-- [ ] Inicializar Backend Django con librerias de generación de imagenes
-- [ ] Implementacion del IPFS
 - [ ] Inicializar frontend con VueJs y Vuetify
+- [ ] Creación algoritmo de generación de imagenes
+- [ ] Implementacion del IPFS
 - [ ] Soporte multi-lenguaje
     - [ ] Inglés
 
