@@ -8,7 +8,7 @@ impl Contract {
         token_id: TokenId,
         metadata: TokenMetadata,
         receiver_id: AccountId,
-    ) {
+    ) -> Token {
         //measure the initial storage being used on the contract
         let initial_storage_usage = env::storage_usage();
 
@@ -36,7 +36,8 @@ impl Contract {
 
         //refund any excess storage if the user attached too much. Panic if they didn't attach enough to cover the required.
         refund_deposit(required_storage_in_bytes);
-        self.inventory.insert(token.owner_id, self.token_count.to_string());
+        self.inventory.insert(token.owner_id.clone(), self.token_count.to_string());
         self.token_count += 1;
+        token
     }
 }
