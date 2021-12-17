@@ -1,5 +1,5 @@
 [package]
-name = "NEAvatar"
+name = "neavatar"
 version = "0.1.0"
 authors = ["Leyner, Jose y Jorge"]
 edition = "2021"
